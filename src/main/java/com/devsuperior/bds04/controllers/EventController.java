@@ -21,7 +21,7 @@ import com.devsuperior.bds04.dto.EventDTO;
 import com.devsuperior.bds04.services.EventService;
 
 @RestController
-@RequestMapping(value = "/event")
+@RequestMapping(value = "/events")
 public class EventController {
 
 	@Autowired
